@@ -1,11 +1,64 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>My test page</title>
-  </head>
-  <body>
-    <img src="../me-and-my-wife.JPG" alt="A picture of me and my wife" />
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Godwin Essien">
+    <meta name="description" content="This is a WDD 131 - Dynamic Web Fundamental - course assignment portal for Godwin Akpan Essien">
+    <meta property="og:title" content="Godwin Akpan Essien - WDD131 Course Home Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://soluap.com/wp-content/uploads/2022/11/DJI_0216-768x432-1.jpg">
+    <meta property="og:url" content="https://pearlrhema.github.io/wdd131/">
+    <link rel="stylesheet" href="styles/base.css">
+    <title>WDD 131 - Dynamic Web Fundamental - Godwin Essien</title>
+</head>
+<body>
+    <header>
+        <h1>WDD 131 - Dynamic Web Fundamental - Godwin Essien</h1>
+        <nav>
+            <ul class="navigation wrap">
+                <li><a href="https://www.linkedin.com/in/essien-godwin" title="LinkedIn Profile" target="_blank">LinkedIn</a></li>
+                <li><a href="https://byui.instructure.com/courses/299928" title="Course Portal" target="_blank">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/10?lang=eng#:~:text=4%20And%20when,the%20Holy%20Ghost." title="Favorite Scripture" target="_blank">Scripture</a></li>
+                <li><a href="../wdd131/final-project/" title="Final Project" target="_blank">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <div>
+                <p class="one">
+                    <img src="images/me-and-my-wife.JPG" alt="Picture of my wife and I">
+                    My name is Godwin Akpan Essien. I am from Nigeria. I am currently pursuing my degree online at BYU-Idaho, and my major is software development. I am married to the most beuatiful woman in my life and together we have an angelic daughter who means the world to us. I love coding, music and learning new things.
+                </p>
+            </div>
+            
+            <h3>Akwa Ibom, Nigeria
+            </h3> <hr>
+            <p class="two">
+                <img src="images/flag_of_nigeria.jpg" alt="">
+                Nigeria is known as the giant of Africa because of it's wealth in culture, trading and most importantly, its population in the continent. It is a multinational state inhabited by more than 250 ethnic groups speaking 500 distinct languages, all identifying with a wide variety of cultures.
+            </p>
+        </section>
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://dev.to/" target="_blank"> Dev.to Community</a></li>
+                <li><a href="https://www.smashingmagazine.com/category/wallpapers/" target="_blank">Smashing Magazines</a></li>
+                <li><a href="https://css-tricks.com/" target="_blank">CSS tricks</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">w3schools</a></li>
+                <li><a href="https://www.udemy.com/?deal_code=&utm_term=Homepage&utm_content=Textlink&utm_campaign=Rakuten-default&ranMID=39197&ranEAID=UGrHaPSUfM0&ranSiteID=UGrHaPSUfM0-ho7ZPKQUIP0uHN.JohDz1g&LSNPUBID=UGrHaPSUfM0&utm_source=aff-campaign&utm_medium=udemyads" target="_blank">Udemy</a></li>
+                <li><a href="https://pic.pnnet.dev/" target="_blank">lurem picsum image placeholder</a></li>
+            </ul>
+        </section>
+    </main>
+    <!-- <div class="aside">Aside Content</div> -->
+    <footer>
+        <p>&copy;<span id="year"></span> Godwin Akpan Essien</p>
+        <p class="lastmodified">Last Modified <span id="lastmodified"></span></p>
+    </footer>
+    <script src="scripts/getdates.js" defer></script>
+</body>
 </html>
