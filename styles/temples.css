@@ -69,13 +69,7 @@ nav {
 	content: "📍"; 
 }
 
-.stuff {
-	margin: 0.5m;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	background-color: #bed;
-	max-width: 580px;
-	height: 100vh;
-}
+
 img{
     display: block;
     margin-left: auto;
@@ -133,9 +127,7 @@ h2{
 		flex: 1 1 100%;
 	}
 
-	.stuff {
-		margin: 1rem auto;
-	}
+
     .navigation li{
         display: block;
         flex: 1 1 auto;
