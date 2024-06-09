@@ -95,6 +95,20 @@ figure{
 h2{
     text-align: center;
 }
+#Home{
+    justify-content: center;
+    text-align: center;
+}
+footer {
+    background-color: rgb(44, 88, 124);
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1 / 3;
+    color: #eee;
+}
+.lastmodified{
+    color: yellow;
+}
 @media only screen and (min-width:400px) {
     main{
         display: grid;
