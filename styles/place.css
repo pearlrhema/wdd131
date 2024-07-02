@@ -1,0 +1,99 @@
+body{
+    box-sizing: border-box;
+}
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover
+  }
+header{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(44, 88, 124);
+    padding: 0rem 0%;
+    /* margin-top: 0; */
+    color: #eee;
+}
+h1{
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+}
+main{
+    display: block;
+    padding: 0;
+}
+main section{
+    display: block;
+    justify-self: center;
+}
+.data, .weather{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    border-radius: 5px;
+    border: solid gray;
+    margin: 5px;
+    padding-top: 0;
+    max-width: 450px;
+    text-align: center;
+}
+footer {
+    background-color: rgb(44, 88, 124);
+    padding: 2rem;
+    text-align: center;
+    color: #eee;
+}
+
+@media only screen and (min-width:600px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* grid-template-rows: repeat(3, 1fr); */
+        /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+        /* grid-template-columns: 3; */
+        /* grid-template-rows: 2; */
+        /* justify-content: center; */
+    }
+    .data{
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .weather{
+        display: block;
+        grid-column: 3/4;
+        /* width: 25%; */
+        /* text-align: center; */
+        /* justify-content: center; */
+    }
+    .hero img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+    /* .content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        max-width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    } */
+    h2{
+        background-color: rgb(44, 88, 124);
+        padding: 0;
+        margin: 0;
+    }
+
+    body{
+        margin: 0;
+    }
+}

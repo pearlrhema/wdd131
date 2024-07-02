@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Country / Place Page</title>
+        <meta name="description" content="Demonstration of Responsive Behavior page.">
+        <meta name="author" content="Godwin Akpan Essien">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/place.css">
+        <!-- <link rel="stylesheet" href="styles/temples-large.css"> -->
+    </head>
+    <header>
+        <h1>Nigeria</h1>
+    </header>
+    <body>
+        <main>
+            <div class="hero">
+                <picture>
+                  <source srcset="images/hero-large.webp" media="(min-width: 1000px)">
+                  <source srcset="images/hero-medium.webp" media="(min-width: 500px)">
+                  <img src="images/hero-small.webp" alt="Temple name and location" width="500" height="250">
+                </picture>
+              </div>
+            <!-- main>div.hero>picture>source:media*2+img -->
+             <!-- take note of the arrangement, the srcset must come before the media attribute -->
+            <div class="container">
+                <div class="data">
+                <h2>Data</h2>
+                <p><strong>Area:</strong> <span id="Area"></span>356,669 sq mi</p>
+                <p><strong>Population:</strong> <span id="Population"></span>218,500,000</p>
+                <p><strong>Capital:</strong> <span id="Capital"></span>Abuja</p>
+                <p><strong>Language:</strong> <span id="Language"></span>English</p>
+                <p><strong>Currency:</strong> <span id="Currency"> </span>Nigerian Naira</p>
+                <p><strong>Time Zone:</strong> <span id="Time Zone"></span>WAT</p>
+                <p><strong>Calling Code:</strong> <span id="Calling Code"></span>(+234)</p>
+                <p><strong>Internet TLD:</strong> <span id="Internet TLD"></span>.ng</p>
+                </div>
+                <div class="weather">
+                    <h2>Weather</h2>
+                <source srcset="images/weather_clouds_night_storm_icon.svg" media="(min-width: 1000px )" >
+                <source srcset="images/weather_clouds_sun_sunny_icon.svg" media="(min-width: 500px)" >
+                <img src="images/weather_clouds_sun_sunny_icon.svg" alt="wather icon" width="50" height="50">
+                <p><strong>Temperature:</strong> <span id="Temperature"></span></p>
+                <p><strong>Condition:</strong> <span id="Condition"></span></p>
+                <p><strong>Wind:</strong> <span id="Wind"></span></p>
+                <p><strong>Wind Chill:</strong> <span id="Wind Chill"></span></p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy;<span id="year"></span> Godwin Akpan Essien</p>
+            <p class="lastmodified">Last Modified <span id="lastmodified"></span></p>
+        </footer>
+        <script src="scripts/getdates.js" defer></script>
+        <script src="scripts/place.js" defer></script>
+    </body>
+    </html>
+</html>
