@@ -78,14 +78,12 @@ img{
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-main{
-    display: grid;
-    margin: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
-    justify-content: center;
-    max-width: 501px;
-    justify-content: center;
-    margin: 1rem auto;
+main .figure-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 1rem;
+	justify-content: center;
+	align-items: center;
 }
 figure{
     margin: 5px;
@@ -110,7 +108,7 @@ footer {
     color: yellow;
 }
 @media only screen and (min-width:400px) {
-    main{
+    main {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         justify-content: center;
