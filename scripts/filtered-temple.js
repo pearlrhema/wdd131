@@ -148,11 +148,11 @@ const temples = [
         return year < 2000;
     });
 }; */
-const homeLink = document.getElementById("all temples");
-const oldLink = document.getElementById("old temples");
-const newLink = document.getElementById("new temples");
-const largeLink = document.getElementById("large temples");
-const smallLink = document.getElementById("small temples");
+const homeLink = document.getElementById("all_temples");
+const oldLink = document.getElementById("old_temples");
+const newLink = document.getElementById("new_temples");
+const largeLink = document.getElementById("large_temples");
+const smallLink = document.getElementById("small_temples");
 
 /* EventListener to Home Button */
 homeLink.addEventListener('click', () => {
