@@ -1,147 +1,154 @@
+:root {
+    --back-color: rgb(45, 72, 151);
+}
+
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: grid;
+    background-color: var(--back-color);
 }
 
 h1 {
-	text-align: left;
-	font-family: times, serif;
-	font-size: 1.5rem;
-	margin-left: 1rem;
+    padding: 1rem;
+    color: white;
 }
 
-h2 {
-	font-size: 1.2rem;
-	color: navy;
-	text-align: left;
-	margin: 1rem;
-}
-
-nav {
-	margin: 1rem auto;
+.hidden {
+    display: none;
 }
 
 #menu {
-	font-size: 1.5rem;
-	border: 0;
-	background: none;
-	color: #000;
-	position: absolute;
-	top: 1rem;
-	right: 1rem;
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: white;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    appearance: none;
 }
 
 #menu::before {
-	content: "☰";
+    content: "☰";
+}
+
+#menu.open {
+    top: 1.2rem;
+    right: 1.2rem;
 }
 
 #menu.open::before {
-	content: "❎";
+    content: "X";
 }
 
 .navigation {
-	display: flex;
-	flex-direction: column;
-	list-style: none;
-	background-color: #333;
-	color: #fff;
+    display: flex;
+    flex-direction: column;
 }
 
 .navigation a {
-	display: none;
-	padding: 1rem;
-	text-align: center;
-	text-decoration: none;
-	color: #fff;
+    display: none;
+    padding: 1.4rem 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #fff;
 }
+
 .navigation a:hover {
-	background-color: #bbb;
-	color: #333;
-	font-weight: 700;
+    background-color: lightblue;
+    color: var(--back-color);
 }
 
 .open a {
-	display: block;
-}
-
-.active::before { 
-	content: "📍"; 
-}
-
-
-img{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
 }
-main .figure-container {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	gap: 1rem;
-	justify-content: center;
-	align-items: center;
-}
-figure{
-    margin: 5px;
-}
-    /* grid-template-columns: repeat(auto-fit, minmax(150px,1fr)); */
-    /* grid-column: 1/4; */
-h2{
-    text-align: center;
-}
-#Home{
+
+main {
     justify-content: center;
+    margin: 20px auto;
+    padding: 0 10px;
+    max-width: 960px;
     text-align: center;
 }
+
+#page-title {
+    margin: 20px auto;
+    color: var(--back-color);
+}
+
+.res-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 15px;
+}
+
+.res-grid section {
+    padding: 15px;
+    background-color: #eee;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.res-grid span {
+    color: var(--back-color);
+}
+
+.res-grid h3 {
+    padding-bottom: 15px;
+}
+
+.res-grid img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 15px auto auto auto;
+    border-radius: 10px;
+    box-shadow: 0 0 0.75rem black;
+}
+
 footer {
-    background-color: rgb(44, 88, 124);
-    padding: 2rem;
+    padding: 1rem;
+    background-color: var(--back-color);
+}
+
+footer p {
+    margin: auto;
     text-align: center;
-    grid-column: 1 / 3;
-    color: #eee;
+    font-size: 1.5rem;
+    color: white;
 }
-.lastmodified{
-    color: yellow;
+
+#lastModified {
+    font-size: 1rem;
+    margin-top: 5px;
 }
-@media only screen and (min-width:400px) {
-    main {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        justify-content: center;
+
+/* large viewport */
+@media (min-width: 640px) {
+    header {
+        grid-template-columns: auto auto;
     }
 
-	h1 {
-		font-size: 2.5rem;
-		margin-left: 0;
-		text-align: center;
-	}
-
-	h2 {
-		font-size: 2rem;
-		text-align: center;
-	}
-
-	#menu {
-		display: none; 
-	}
-
-	.navigation {
-        display: flex;
-		flex-direction: row;
-	}
-
-	.navigation a {
-		display: block;
-		flex: 1 1 100%;
-	}
-
-
-    .navigation li{
+    .hidden {
         display: block;
-        flex: 1 1 auto;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        flex-direction: row;
+    }
+
+    .navigation a {
+        display: block;
+        flex: 1 1 100%;
     }
 }
