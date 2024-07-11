@@ -124,9 +124,8 @@ footer p {
     color: white;
 }
 
-#lastModified {
-    font-size: 1rem;
-    margin-top: 5px;
+.lastmodified{
+    color: yellow;
 }
 
 /* large viewport */
