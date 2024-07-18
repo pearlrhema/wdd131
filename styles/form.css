@@ -119,12 +119,7 @@ select, input[type="date"], textarea, input[type="text"], input[type="submit"] {
 }
 
 
-/* form input[type="checkbox"], input[type="radio"] {
-    width: auto;
-} */
-/* form input[type="checkbox"]{
-    padding: 1rem;
-} */
+
 
  input[type="checkbox"]{
     padding: 2rem;
