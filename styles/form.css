@@ -60,6 +60,19 @@ main{
     margin: auto;
     text-align: left;
 }
+.container label{
+    display: block;
+    padding-top: 1rem;
+    font-size: .9rem;
+    padding: 6px;
+}
+.container legend, h1{
+    color: #445ba9;;
+}
+
+.container input[type="checkbox"]{
+    margin-right: 6px;
+}
 
 label {
     display: block;
@@ -78,21 +91,44 @@ select, input[type="date"], textarea, input[type="text"], input[type="submit"] {
 
 .stars {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 10px;
-    width: auto;
 }
 
+.container select[id="productName"],
+.container input[type="date"],
+.container input[type="text"],
+.container textarea{
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem; /*this will give the height of atleast 44px*/
+    color: #921e05;
+    width: 100%;
+}
+
+.container small, input[type="checkbox"] {
+    color: #921e05;
+}
 .stars label {
-    font-size: 1em;
+    font-size: 1rem;
     color: #1a1a1a;
     cursor: pointer;
 }
 
 
-form input[type="checkbox"], input[type="radio"] {
+/* form input[type="checkbox"], input[type="radio"] {
     width: auto;
+} */
+/* form input[type="checkbox"]{
+    padding: 1rem;
+} */
+
+ input[type="checkbox"]{
+    padding: 2rem;
+    color: #921e05;
 }
 
 .features {
@@ -113,31 +149,12 @@ fieldset{
     border-radius: 6px;
     padding: .5rem 2%;
 }
+fieldset input:required{
+    border-right: solid 8px red;
+}  /*input with a pseudo class of required*/
 
-
-/* .wf1 input[type="text"],
-.wf1 input[type="tel"],
-.wf1 input[type="email"],
-.wf1 input[type="url"],
-.wf1 input[type="date"],
-.wf1 input[type="select"],
-.wf1 input[type="number"],
-.wf1 select{
-    background-color: #eee;
-    display: block;
-    border: solid 1px #999;
-    border-radius: 6px;
-    padding: .75rem; /*this will give the height of atleast 44px*/
-    /* color: #555; */
-    /* width: 100%; */
-    /* max-width: 400px; */
-    /* appearance: none; */
-/* } */
-
-label {
-    display: block;
-    width: 45%;
-    margin-top: 5px;
+fieldset input:required:valid{
+    border-right: solid 8px green;
 }
 
 .review-container {
@@ -163,10 +180,16 @@ form input[type="submit"]{
     border-radius: 4px;
 }
 
-form input[type="submit"]:hover{
-    background: transparent;
-    color: #000;
-    border: 2px solid #000;
+.container input[type="submit"]{
+    border: none;
+    background-image: linear-gradient(#921e05, #6f200e);
+    color: #fff;
+    border-radius: 6px;
+    padding: .9rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
 }
 
 @media (min-width: 780px) {
