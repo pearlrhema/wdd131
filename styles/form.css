@@ -67,7 +67,7 @@ main{
     padding: 6px;
 }
 .container legend, h1{
-    color: #445ba9;;
+    color: black;
 }
 
 .container input[type="checkbox"]{
@@ -105,12 +105,12 @@ select, input[type="date"], textarea, input[type="text"], input[type="submit"] {
     border: solid 1px #999;
     border-radius: 6px;
     padding: .75rem; /*this will give the height of atleast 44px*/
-    color: #921e05;
+    color: black;
     width: 100%;
 }
 
 .container small, input[type="checkbox"] {
-    color: #921e05;
+    color: black;
 }
 .stars label {
     font-size: 1rem;
@@ -123,7 +123,7 @@ select, input[type="date"], textarea, input[type="text"], input[type="submit"] {
 
  input[type="checkbox"]{
     padding: 2rem;
-    color: #921e05;
+    color: black;
 }
 
 .features {
