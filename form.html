@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Product Review</title>
-        <meta name="description" content="Demonstration of Responsive Behavior page.">
-        <meta name="author" content="Godwin Akpan Essien">
+        <title>Form.html</title>
+        <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Nicolas Velasquez - Demonstrate knowledge by applying HTML and CSS in the design and development of a page from a Wireframe Design">
+        <meta name="author" content="Nicolas Velasquez">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Marcellus&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/form.css">
-
+        <script src="scripts/form.js" defer></script>
     </head>
 <body>
+    <header class="site-header">
+        <div>
+            <h1>My form</h1>
+        </div>
+    </header>
     <main>
 
-        <h1>Product Review</h1>
-
-        <form method="get" action="review.html" class="container">
+        <form id="productReviewForm" method="get" action="review.html" class="container">
             <fieldset>
                 <legend><strong>Product Name</strong></legend>
                 <select id="productName" name="productName" required>
