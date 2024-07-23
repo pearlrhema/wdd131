@@ -1,30 +1,46 @@
 // Array of product objects
 const products = [
   {
-    id: 'fc-1888',
-    name: "flux capacitor",
+    id: '3kg',
+    name: "3kg gas cylinder",
     avgRating: 4.5
   },
   {
-    id: 'fc-2050',
-    name: "power laces",
+    id: '4kg',
+    name: "4kg gas cylinder",
     avgRating: 4.7
   },
   {
-    id: 'fs-1987',
-    name: "time circuits",
+    id: '8kg',
+    name: "8kg gas cylinder",
     avgRating: 3.5
   },
   {
-    id: 'ac-2000',
-    name: "low voltage reactor",
+    id: '10kg',
+    name: "10kg gas cylinder",
     avgRating: 3.9
   },
   {
-    id: 'jj-1969',
-    name: "warp equalizer",
+    id: '12.5',
+    name: "12.5kg gas cylinder",
     avgRating: 5.0
-  }
+  },
+  {
+    id: 'almnb',
+    name: 'aluminium burner',
+    avgRating: '4.2'
+  },
+  {
+    id: 'bnt',
+    name: 'burner and control',
+    avgRating: 4.5
+  },
+  
+  {
+    id: 'stbr',
+    name: 'stainless burner',
+    avgRating: 4.3,
+  },
 ];
 
 // Populate the Product Name select element

@@ -3,22 +3,27 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 Project</title>
+    <meta name="description" content="Demonstration of Responsive Behavior page.">
+    <meta name="author" content="Godwin Akpan Essien">
+    <title>Darson Utensils</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
       rel="stylesheet">
-    <link rel="stylesheet" href="styles/restaurant.css">
+    <link rel="stylesheet" href="styles/utensils.css">
   </head>
 <body>
-  <nav>
-    <ul id="menu">
-        <li><a id="toggleMenu">&equiv;</a></li>
-        <li><a href="project.html" >Home</a></li>
-        <li><a href="restaurant.html" >Restaurant</a></li>
-        <li><a href="Utensils.html" >Utensils</a></li>
-    </ul>
-  </nav>
+  <header>
+    <button id="menu"></button>
+    <nav>
+      <ul class="navigation">
+          <li><a href="project.html" >Home</a></li>
+          <li><a href="restaurant.html" >Restaurant</a></li>
+          <li><a href="Utensils.html" >Utensils</a></li>
+          <li><a href="form.html" >Review</a></li>
+      </ul>
+    </nav>
+  </header>
   <main id="gridly">
     
     <h2>Select From our Food Menu List</h2>
@@ -42,6 +47,6 @@
   <script>
     document.getElementById("year").innerHTML = new Date().getFullYear();
   </script>
-  <script src="scripts/project.js"></script>
+  <script src="scripts/restaurant.js"></script>
 </body>
 </html>

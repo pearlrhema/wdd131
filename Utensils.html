@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSE 121b | Final Project</title>
+    <meta name="description" content="Demonstration of Responsive Behavior page.">
+    <meta name="author" content="Godwin Akpan Essien">
+    <title>Darson Utensils</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
@@ -12,12 +14,14 @@
   </head>
 <body>
   <header>
+    <h1>Darson</h1>
+    <button id="menu"></button>
     <nav>
-      <ul id="menu">
-          <li><a id="toggleMenu">&equiv;</a></li>
+      <ul class="navigation">
           <li><a href="project.html" >Home</a></li>
           <li><a href="restaurant.html" >Restaurant</a></li>
           <li><a href="Utensils.html" >Utensils</a></li>
+          <li><a href="form.html" >Review</a></li>
       </ul>
     </nav>
   </header>
@@ -29,7 +33,7 @@
       <option value="" disabled selected>Choose Category</option>
       <option value="stove"> stove</option>
       <option value="cylinder">cylinder</option>
-      <option value="utensils">utensils</option>
+      <option value="burner">utensils</option>
     </select>
 
     <div id="Delicacies">
@@ -44,6 +48,6 @@
   <script>
     document.getElementById("year").innerHTML = new Date().getFullYear();
   </script>
-  <script src="scripts/project.js"></script>
+  <script src="scripts/utensil.js"></script>
 </body>
 </html>

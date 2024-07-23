@@ -1,4 +1,10 @@
-/* W05: Programming Tasks */
+const hamButton = document.querySelector('#menu');
+const navigation = document.querySelector('.navigation');
+
+hamButton.addEventListener('click', () => {
+	navigation.classList.toggle('open');
+	hamButton.classList.toggle('open');
+});
 
 /* Declare and initialize global variables */
 const templesElement = document.getElementById("Delicacies");
@@ -15,9 +21,12 @@ const displayFoodList = (foods) => {
         const img = document.createElement("img");
         img.src = food.imageUrl;
         img.setAttribute('alt', `${food.foodName}`);
-        myArticle.appendChild(h4);
+        img.setAttribute("loading", "lazy");
+        img.setAttribute("width", 400);
+        img.setAttribute("height", 250);
         myArticle.appendChild(h3);
         myArticle.appendChild(img);
+        myArticle.appendChild(h4);
         templesElement.appendChild(myArticle);
     };
 }
@@ -59,7 +68,7 @@ const sortCategories = (Delicacies) => {
 
 
 getFoodListFromJsonFile();
-reset();
+// reset();
 
 /* Event Listener */
 document.getElementById("sortBy").addEventListener('change', () => {sortCategories(foodList)});
