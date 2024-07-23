@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="styles/restaurant.css">
+  </head>
+<body>
+  <nav>
+    <ul id="menu">
+        <li><a id="toggleMenu">&equiv;</a></li>
+        <li><a href="project.html" >Home</a></li>
+        <li><a href="restaurant.html" >Restaurant</a></li>
+        <li><a href="Utensils.html" >Utensils</a></li>
+    </ul>
+  </nav>
+  <main id="gridly">
+    
+    <h2>Select From our Food Menu List</h2>
+    <select id="sortBy" title="Choose a data filter.">
+      <option value="" disabled selected>Choose Category</option>
+      <option value="breakfast">Breakfast</option>
+      <option value="launch">Launch</option>
+      <option value="dinner">Dinner</option>
+      <option value="all">All</option>
+    </select>
+
+    <div id="Delicacies">
+    </div>
+  </main>
+
+
+  <footer>
+    &copy;<span id="year"></span> | Week 05 - Fetching Temple Data | CSE 121b
+  </footer>
+  <script src="scripts/main.js"></script>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+  <script src="scripts/project.js"></script>
+</body>
+</html>

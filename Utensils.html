@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE 121b | Final Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="styles/utensils.css">
+  </head>
+<body>
+  <header>
+    <nav>
+      <ul id="menu">
+          <li><a id="toggleMenu">&equiv;</a></li>
+          <li><a href="project.html" >Home</a></li>
+          <li><a href="restaurant.html" >Restaurant</a></li>
+          <li><a href="Utensils.html" >Utensils</a></li>
+      </ul>
+    </nav>
+  </header>
+    
+  <main id="gridly">
+    <h2>Select From our Menu</h2>
+
+    <select id="sortBy" title="Choose a data filter.">
+      <option value="" disabled selected>Choose Category</option>
+      <option value="stove"> stove</option>
+      <option value="cylinder">cylinder</option>
+      <option value="utensils">utensils</option>
+    </select>
+
+    <div id="Delicacies">
+    </div>
+  </main>
+
+
+  <footer>
+    &copy;<span id="year"></span> | Final Project WDD131
+  </footer>
+  <script src="scripts/main.js"></script>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+  <script src="scripts/project.js"></script>
+</body>
+</html>

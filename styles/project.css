@@ -1,0 +1,184 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: left;
+	font-family: times, serif;
+	font-size: 1.5rem;
+	margin-left: 1rem;
+}
+
+h2 {
+	font-size: 1.2rem;
+	color: navy;
+	text-align: left;
+	margin: 1rem;
+}
+
+nav {
+	margin: 1rem auto;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❎";
+}
+
+nav {
+    /* background-color: black; */
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+nav ul li {
+    font-size: 2rem;
+    flex: 1 1 auto;
+}
+
+nav ul li:first-child {
+    display: block;
+    font-size: 2rem;
+}
+
+nav ul li:first-child a {
+    padding: 1px 10px;
+}
+
+nav ul li {
+    display: none;
+    list-style: none;
+    margin: 10px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: #efefef;
+    color: black;
+}
+
+.open a {
+	display: block;
+}
+
+.active::before { 
+	content: "📍"; 
+}
+
+
+/* img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+} */
+
+.hero img {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+z-index: -1;
+}
+main{
+    display: grid;
+    grid-template-rows: 3;
+}
+.container{
+    display: grid;
+    grid-row: 1/4;
+}
+figure{
+    margin: 5px;
+}
+    /* grid-template-columns: repeat(auto-fit, minmax(150px,1fr)); */
+    /* grid-column: 1/4; */
+h2{
+    text-align: center;
+}
+#Home{
+    justify-content: center;
+    text-align: center;
+}
+footer {
+    background-color: rgb(44, 88, 124);
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1 / 3;
+    color: #eee;
+}
+.lastmodified{
+    color: yellow;
+}
+@media only screen and (min-width:400px) {
+
+	h1 {
+		font-size: 2.5rem;
+		margin-left: 0;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 2rem;
+		text-align: center;
+	}
+
+	#menu {
+		display: none; 
+	}
+
+	.navigation {
+        display: flex;
+		flex-direction: row;
+	}
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+
+    .navigation li{
+        display: block;
+        flex: 1 1 auto;
+    }
+}
