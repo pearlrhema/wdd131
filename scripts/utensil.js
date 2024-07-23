@@ -25,7 +25,7 @@ const displayFoodList = (foods) => {
 
 /* async getTemples Function using fetch()*/
 const getFoodListFromJsonFile = async () => {
-    const myresponse = await fetch("https://pearlrhema.github.io/cse121b/utensils.json");
+    const myresponse = await fetch("https://pearlrhema.github.io/wdd131/utensils.json");
     let foodData = await myresponse.json();
     foodList = foodData;
     displayFoodList(foodList);
