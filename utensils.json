@@ -1,98 +1,114 @@
 [
     {
-    "productName": "3burner stove",
-    "category": "stove",
-    "imageSource": "https://ighomall.com/image/cache/catalog/products/cookers-ovens/haier-thermocool-3-burner-gas-cooker-tgc-3ga-tec-ckr-tbl-3hob-tgc-3ga-glass-trio-600x600w.jpg",
-    "Description": "3 burner stove made for your home "
+        "productName": "3burner stove",
+        "category": "stove",
+        "imageSource": "https://ighomall.com/image/cache/catalog/products/cookers-ovens/haier-thermocool-3-burner-gas-cooker-tgc-3ga-tec-ckr-tbl-3hob-tgc-3ga-glass-trio-600x600w.jpg",
+        "Description": "3 burner stove made for your home ",
+        "price": 10534
     },
     {
         "productName": "4burner stove",
         "category": "stove",
         "imageSource": "https://m.media-amazon.com/images/I/81LCMvnUcEL._AC_SL1500_.jpg",
-        "Description": "4 burner stove for the home"
+        "Description": "4 burner stove for the home",
+        "price": 20654
     },
     {
         "productName": "2burner stove",
         "category": "stove",
         "imageSource": "https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/28/275991/1.jpg?5547",
-        "Description": "2 burner stove"
+        "Description": "2 burner stove",
+        "price": 65746
     },
     {
         "productName": "smart stove",
         "category": "stove",
         "imageSource": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNmOSzpp3H4ouLSCRpJ0xYMNsjKoHRgFthTg&s",
-        "Description": " smart stove best for the home"
+        "Description": " smart stove best for the home",
+        "price": 40565
     },
     {
         "productName": "4burner with heater",
         "category": "stove",
         "imageSource": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/95/1253342/1.jpg?1405",
-        "Description": "4 burner with 2 heater to keep the family warm"
+        "Description": "4 burner with 2 heater to keep the family warm",
+        "price": 20690
     },
     {
         "productName": "buy 1 get one free",
         "category": "stove",
         "imageSource": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNXex7nFDcy1VY5Idqp-fhTW1Z8_hA8VAA1Q&s",
-        "Description": "buy one get one free"
+        "Description": "buy one get one free",
+        "price": 45055
     },
     {
         "productName": "3kg gas cylinder",
         "category": "cylinder",
         "imageSource": "https://cdn.multi-masters.com/product/465bbf48-0acc-44e1-84c4-d0107bc09fba.jpg",
-        "Description": "3kg gas cylinder"
+        "Description": "3kg gas cylinder",
+        "price": 45076
     },
     {
         "productName": "4kg gas cylinder",
         "category": "cylinder",
         "imageSource": "https://www-konga-com-res.cloudinary.com/w_400,f_auto,fl_lossy,dpr_3.0,q_auto/media/catalog/product/O/P/2210_1652203698.jpg",
-        "Description": "4kg gas cylinder"
+        "Description": "4kg gas cylinder",
+        "price": 5000
     },
     {
         "productName": "8kg gas cylinder",
         "category": "cylinder",
         "imageSource": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI2i0fKuiE97_8prbSoCpSUlebquaDvjobt0aNnLWxQYw2VuE5wb4MP0FuE6l6-Oz9G4A&usqp=CAU",
-        "Description": "8kg cylinder best for a mini home management"
+        "Description": "8kg cylinder best for a mini home management",
+        "price": 20000
     },
     {
         "productName": "6kg gas cylinder",
         "category": "cylinder",
         "imageSource": "https://www-konga-com-res.cloudinary.com/w_400,f_auto,fl_lossy,dpr_3.0,q_auto/media/catalog/product/O/A/190804_1650875057.jpg",
-        "Description": "6kg gas cylinder for the best experience you need"
+        "Description": "6kg gas cylinder for the best experience you need",
+        "price": 35000
     },
     {
         "productName": "12.5kg gas cylinder",
         "category": "cylinder",
         "imageSource": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQb-VOkbtefPpjFlOD6OaDJS89Ba5YjmY-gPHPgvj5JqakfqAxuSSE9cWy7dvvl9mTD0fAQa8u-kWTN6F57wA8CQGi_TYD6wC5pO5jcJWSDQZI9R7snztupo6Ak1c5E0h30NdKRuaA&usqp=CAc",
-        "Description": "the best 12.5kg gas cylinder for your home"
+        "Description": "the best 12.5kg gas cylinder for your home",
+        "price": 29700
     },
     {
         "productName": "10kg cylinder",
         "category": "cylinder",
         "imageSource": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRhWp2VQFHZGAqtOAvvk37UYoBR5LkRRdq_Cniy2XFX6gApLX-YnDlUwZVXeaW4MawKQaNMy26TqVZkqMX2U5w2k6u6w29zbL4_tLMwxeUXQ_CFoIX8Fn4DpUXvGTUXs7Ztqh0NGes&usqp=CAc",
-        "Description": "the best 10kg cylinder for the home that matters"
+        "Description": "the best 10kg cylinder for the home that matters",
+        "price": 46530
     },
     {
         "productName": "burner cap",
         "category": "burner",
         "imageSource": "https://cartnear.s3.us-east-2.amazonaws.com/ng/10bc95558206c9b749634665a0fab16d.jpg",
-        "Description": "the small but mighty changeable burner cap for your small burner"
+        "Description": "the small but mighty changeable burner cap for your small burner",
+        "price": 20560
     },
     {
         "productName": "stainless burner",
         "category": "burner",
         "imageSource": "https://www-konga-com-res.cloudinary.com/w_400,f_auto,fl_lossy,dpr_3.0,q_auto/media/catalog/product/O/D/221661_1712124215.jpg",
-        "Description": "affordable stainless bburner "
+        "Description": "affordable stainless bburner ",
+        "price": 20890
     },
     {
         "productName": "aluminiun burner",
         "category": "burner",
         "imageSource": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/09/8416612/1.jpg?7831",
-        "Description": "the best aluminium burner for durability"
+        "Description": "the best aluminium burner for durability",
+        "price": 70550
     },
     {
         "productName": "burner and control",
         "category": "burner",
         "imageSource": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-0jzxpdW9XMNJ2sNU1-aZUKCFz3-f9dYWJQ&s",
-        "Description": "burner and control"
+        "Description": "burner and control",
+        "price": 20430
     }
 ]
